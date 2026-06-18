@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005776",
-  "source": "openneuro",
-  "source_id": "ds005776",
+  "pipeline_stage": "enriched",
   "title": "Electrical_Thermal_FingerTapping_2015",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Yücel, Meryem": {},
     "Selb, Juliette": {},
@@ -13,33 +13,95 @@
     "Boas, David": {},
     "Becerra, Lino": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005776.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1038/srep09469",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1117/1.NPh.2.3.035005",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005776",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005776",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.1",
-  "recording_modality": [
-    "nirs"
-  ],
-  "datatypes": [
-    "nirs"
   ],
   "funding_references": [
     {
-      "funder_name": "NIH-NIGMS 1-R01-GM104986"
-    },
-    {
-      "funder_name": "NIH-NIGMS 1-R01-GM122405"
-    },
-    {
       "funder_name": "The Mayday Fund, New York"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "1-R01-GM104986"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "1-R01-GM122405"
+    },
+    {
+      "funder_name": "The Mayday Fund"
     }
   ],
-  "acknowledgements": "This work was supported by the National Institutes of Health (NIH), the National Institute of General Medical Sciences (NIGMS) under grants NIH-NIGMS 1-R01-GM104986, 1-R01-GM122405, and the Mayday Fund, New York. We thank all participants and research staff involved in this study."
+  "modalities": [
+    "nirs"
+  ],
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".html",
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv"
+  ],
+  "description": "This dataset comprises functional near-infrared spectroscopy (fNIRS) measurements of hemodynamic brain responses to painful thermal and electrical stimuli during finger tapping tasks. The study investigates the specificity of cerebral hemodynamic responses to noxious stimulation, employing short separation regression techniques to improve statistical localization and account for autonomic response variability across different stimulus modalities.",
+  "methods_description": "Data were collected using functional near-infrared spectroscopy (fNIRS) during tasks involving thermal and electrical stimulation combined with finger tapping. Short separation regression was applied to improve statistical significance and localization of hemodynamic responses.",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "hemodynamic response"
+    },
+    {
+      "term": "Pain",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
+    },
+    {
+      "term": "thermal stimulation"
+    },
+    {
+      "term": "electrical stimulation"
+    },
+    {
+      "term": "finger tapping"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "short separation regression"
+    },
+    {
+      "term": "nociception"
+    }
+  ],
+  "source_hash": "5011c95ee8713717b304e251a95f76a76db5b92e9833e27ddf45b345118f195e"
 }
