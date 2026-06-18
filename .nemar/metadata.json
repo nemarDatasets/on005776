@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Electrical_Thermal_FingerTapping_2015",
+  "description": "This dataset comprises near-infrared spectroscopy (NIRS) measurements of hemodynamic brain responses during painful and non-painful finger-tapping stimulation. The study investigates the specificity of cerebral blood flow changes to noxious stimuli using functional NIRS, with concurrent assessment of autonomic responses. Data were collected from multiple participants undergoing controlled thermal and electrical stimulation protocols.",
+  "methods_description": "Functional near-infrared spectroscopy (fNIRS) was used to measure hemodynamic responses during finger-tapping tasks with thermal and electrical stimulation. Short separation regression was applied to improve statistical localization of hemodynamic responses and account for varying autonomic responses across stimulation conditions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,30 @@
     "Boas, David": {},
     "Becerra, Lino": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005776.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "near-infrared spectroscopy"
     },
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "hemodynamics"
+    },
+    {
+      "term": "pain"
+    },
+    {
+      "term": "finger tapping"
+    },
+    {
+      "term": "thermal stimulation"
+    },
+    {
+      "term": "electrical stimulation"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1038/srep09469",
       "identifier_type": "DOI",
@@ -38,6 +58,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005776",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005776.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -56,52 +81,20 @@
       "funder_name": "The Mayday Fund"
     }
   ],
+  "resource_type_specific": "fNIRS Dataset",
   "modalities": [
     "nirs"
   ],
-  "resource_type_specific": "fNIRS Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "1.3 GB (48 files)"
   ],
   "formats": [
     ".html",
     ".json",
     ".md",
     ".snirf",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises functional near-infrared spectroscopy (fNIRS) measurements of hemodynamic brain responses to painful thermal and electrical stimuli during finger tapping tasks. The study investigates the specificity of cerebral hemodynamic responses to noxious stimulation, employing short separation regression techniques to improve statistical localization and account for autonomic response variability across different stimulus modalities.",
-  "methods_description": "Data were collected using functional near-infrared spectroscopy (fNIRS) during tasks involving thermal and electrical stimulation combined with finger tapping. Short separation regression was applied to improve statistical significance and localization of hemodynamic responses.",
-  "keywords": [
-    {
-      "term": "fNIRS"
-    },
-    {
-      "term": "hemodynamic response"
-    },
-    {
-      "term": "Pain",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
-    },
-    {
-      "term": "thermal stimulation"
-    },
-    {
-      "term": "electrical stimulation"
-    },
-    {
-      "term": "finger tapping"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "short separation regression"
-    },
-    {
-      "term": "nociception"
-    }
-  ],
-  "source_hash": "5011c95ee8713717b304e251a95f76a76db5b92e9833e27ddf45b345118f195e"
+  "source_hash": "ded36c6791b18b676e896fe68fdfcfa2af7519220f32221534eb35e3391088db"
 }
