@@ -1,1 +1,1 @@
-{"TaskName":"Electrical","SamplingFrequency":50,"NIRSChannelCount":102,"NIRSSourceOptodeCount":15,"NIRSDetectorOptodeCount":31}
+{"TaskName":"Electrical","SamplingFrequency":50,"NIRSChannelCount":102,"NIRSSourceOptodeCount":15,"NIRSDetectorOptodeCount":31,"RecordingDuration":750.0,"RecordingType":"continuous","Manufacturer":"TechEn","ManufacturersModelName":"CW6"}

@@ -1,1 +1,1 @@
-{"TaskName":"Resting","SamplingFrequency":50,"NIRSChannelCount":102,"NIRSSourceOptodeCount":15,"NIRSDetectorOptodeCount":31}
+{"TaskName":"Resting","SamplingFrequency":50,"NIRSChannelCount":102,"NIRSSourceOptodeCount":15,"NIRSDetectorOptodeCount":31,"RecordingDuration":520.02,"RecordingType":"continuous","Manufacturer":"TechEn","ManufacturersModelName":"CW6"}
